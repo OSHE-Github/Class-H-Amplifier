@@ -1,0 +1,38 @@
+********************************
+* Copyright:                   *
+* Vishay Intertechnology, Inc. *
+********************************
+*Apr 24, 2017
+*ECN S17-0593, Rev. A
+*File Name: SQJA80EP_PS.txt and SQJA80EP_PS.lib
+*This document is intended as a SPICE modeling guideline and does not
+*constitute a commercial product datasheet. Designers should refer to the
+*appropriate datasheet of the same number for guaranteed specification
+*limits.
+.SUBCKT SQJA80EP D G S 
+M1 3 GX S S NMOS W= 6755868u L= 0.30u 
+M2 S GX S D PMOS W= 6755868u L= 0.13u 
+R1 D 3 4.067e-03 TC=5.322e-03,1.602e-05
+CGS GX S 1.494e-09 
+CGD GX D 1.008e-13 
+RG G GY 1m 
+RTCV 100 S 1e6 TC=-5.639e-04,1.105e-05
+ETCV GX GY 100 200 1 
+ITCV S 100 1u 
+VTCV 200 S 1 
+DBD S D DBD 6755868u 
+*************************************************  
+.MODEL NMOS NMOS ( LEVEL = 3 TOX = 5e-8 
++ RS = 0 KP = 8.852e-06 NSUB = 1.448e+17 
++ KAPPA = 1.183e-01 NFS = 6.832e+11 
++ LD = 0 IS = 0 TPG = 1    )
+************************************************* 
+.MODEL PMOS PMOS ( LEVEL = 3 TOX = 5e-8 
++NSUB = 2.071e+16 IS = 0 TPG = -1    )
+************************************************* 
+.MODEL DBD D ( 
++FC = 0.1 TT = 9.816e-08 T_measured = 25 BV = 81
++RS = 9.867e-03 N = 1.110e+00 IS = 2.189e-12 
++EG = 1.195e+00 XTI = 2.416e-01 TRS1 = 2.085e-03
++CJO = 3.911e-10 VJ = 1.927e+01 M = 8.296e-01 ) 
+.ENDS 
