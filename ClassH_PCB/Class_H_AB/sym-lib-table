@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ClassH_Symbols")(type "KiCad")(uri "${KIPRJMOD}/Class_H_Custom/ClassH_Symbols.kicad_sym")(options "")(descr ""))
+)

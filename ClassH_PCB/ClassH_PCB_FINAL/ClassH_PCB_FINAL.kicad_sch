@@ -1,0 +1,696 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "83f25dcc-e2e1-423e-82f5-ba9174ba5bc5")
+	(paper "B")
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Rails from Rail Splitter connect to AB Amp rails. \nEnvelope Follower provides signal to both rail splitter and AB amp inputs\n\nThe rail splitter virtual ground is used on the AB amp, the enevlop follower ground is used for rail splitter normal ground"
+		(exclude_from_sim no)
+		(at 223.774 65.532 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "1bead446-759d-4a26-b382-b0740e43f99a")
+	)
+	(text "12 Volt Input for Reference"
+		(exclude_from_sim no)
+		(at 147.828 103.632 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3ac9d484-eee5-463a-b2c4-485bb566c670")
+	)
+	(junction
+		(at 162.56 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10a8542f-bb29-4b86-9ec6-3c12103f73e6")
+	)
+	(junction
+		(at 160.02 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff08b06c-8401-42ec-81ba-dae038ec2893")
+	)
+	(wire
+		(pts
+			(xy 213.36 121.92) (xy 162.56 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "176c7511-9ff6-4867-8266-9c05273afb76")
+	)
+	(wire
+		(pts
+			(xy 213.36 124.46) (xy 160.02 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "291b7787-a94b-45a3-9db2-ffa0e6b9867f")
+	)
+	(wire
+		(pts
+			(xy 213.36 116.84) (xy 205.74 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b68d29a-def3-4162-9e57-0c81d810ff8f")
+	)
+	(wire
+		(pts
+			(xy 162.56 107.95) (xy 168.91 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "671feb7e-b3a6-462d-8c9f-13e0dadc6246")
+	)
+	(wire
+		(pts
+			(xy 160.02 124.46) (xy 160.02 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70349cf2-eb33-4ec1-b2cf-c796141c9cee")
+	)
+	(wire
+		(pts
+			(xy 196.85 100.33) (xy 256.54 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7553393c-ffe4-48d4-aca7-ef1834072142")
+	)
+	(wire
+		(pts
+			(xy 162.56 121.92) (xy 162.56 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75a13c3d-6333-4a6c-8617-fb59152ecfa7")
+	)
+	(wire
+		(pts
+			(xy 152.4 107.95) (xy 162.56 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d6380f7-87b5-43bf-8b8c-917f45224251")
+	)
+	(wire
+		(pts
+			(xy 160.02 110.49) (xy 168.91 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8caac970-eb28-41cb-a871-bb4d0b8da08b")
+	)
+	(wire
+		(pts
+			(xy 243.84 116.84) (xy 256.54 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dbf890e-bd2d-47b4-b454-405d25cffd17")
+	)
+	(wire
+		(pts
+			(xy 196.85 102.87) (xy 256.54 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ecd233f-8b99-4ba3-94f1-67e2bfefb527")
+	)
+	(wire
+		(pts
+			(xy 243.84 114.3) (xy 256.54 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abdbd9f7-ed36-4098-85dc-2de0f2690af8")
+	)
+	(wire
+		(pts
+			(xy 213.36 114.3) (xy 208.28 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aec07d89-6225-4607-a3dc-d12f326387de")
+	)
+	(wire
+		(pts
+			(xy 243.84 119.38) (xy 256.54 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b27a3bfb-8905-4c74-8da4-e95f0940a2a7")
+	)
+	(wire
+		(pts
+			(xy 152.4 110.49) (xy 160.02 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc833b1b-d52f-4eb4-8c81-30ea1ea3ddc2")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 147.32 107.95 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e9af1b1-f847-425a-a099-8be6bc365836")
+		(property "Reference" "J1"
+			(at 144.78 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 144.78 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+			(at 147.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 147.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "33ed3c5f-eed1-40fe-acd9-893fe429a6fd")
+		)
+		(pin "1"
+			(uuid "35245d9c-7161-4d23-b4c5-db4d344d75e9")
+		)
+		(instances
+			(project "ClassH_PCB_FINAL"
+				(path "/83f25dcc-e2e1-423e-82f5-ba9174ba5bc5"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 256.54 97.79)
+		(size 30.48 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3f035a30-6f13-4a57-8dea-cd12892e267b")
+		(property "Sheetname" "AB_Amp"
+			(at 256.54 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AB_Amp.kicad_sch"
+			(at 256.54 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AB_In+" input
+			(at 256.54 100.33 180)
+			(uuid "a3ef5e6b-dcc6-4fe6-a899-5798d729c594")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AB_In-" input
+			(at 256.54 102.87 180)
+			(uuid "f2633226-6e6f-4b3b-8e1d-f75f62c7b4ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RS_In_V+" input
+			(at 256.54 114.3 180)
+			(uuid "173bf091-4a28-4c8a-af59-5369b9d13cbd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RS_In_V-" input
+			(at 256.54 119.38 180)
+			(uuid "87e85d3f-ba3e-4809-901f-f2155372539d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RS_In_VGND" input
+			(at 256.54 116.84 180)
+			(uuid "46860e31-4b0c-457f-a7e1-05c4c1a49f92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ClassH_PCB_FINAL"
+				(path "/83f25dcc-e2e1-423e-82f5-ba9174ba5bc5"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 168.91 97.79)
+		(size 27.94 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4c0d6214-0681-4f16-b094-1bf6af64c468")
+		(property "Sheetname" "Envelope_Follower"
+			(at 168.91 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Envelope_Follower.kicad_sch"
+			(at 168.91 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "EF_Out+" input
+			(at 196.85 100.33 0)
+			(uuid "975ef97c-07cd-405c-9dae-94a08702c780")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EF_Out_GND" input
+			(at 196.85 102.87 0)
+			(uuid "71d84146-937b-45ed-8a32-72eec59833ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN_12V" input
+			(at 168.91 107.95 180)
+			(uuid "15554f21-783d-4915-8fa7-e1f75d681c52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN_GND" input
+			(at 168.91 110.49 180)
+			(uuid "65433df5-4b51-46f1-944c-61e6938f2454")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ClassH_PCB_FINAL"
+				(path "/83f25dcc-e2e1-423e-82f5-ba9174ba5bc5"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 213.36 111.76)
+		(size 30.48 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7009a8df-b136-4d4f-b2c0-1a6c106594b1")
+		(property "Sheetname" "RailSplitter"
+			(at 213.36 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RailSplitter.kicad_sch"
+			(at 213.36 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "EN_IN+" input
+			(at 213.36 114.3 180)
+			(uuid "e05fa141-84b5-4999-8440-5b1efbf778ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_IN_GND" input
+			(at 213.36 116.84 180)
+			(uuid "022ae168-e58c-4183-b1b2-e75eeada2098")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RS_Out+" input
+			(at 243.84 114.3 0)
+			(uuid "9fb8ad9d-6af2-4c8e-a92c-09b603e41f8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RS_Out-" input
+			(at 243.84 119.38 0)
+			(uuid "fad33e71-8a92-4a25-bed6-e270e5f762f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RS_Out_VGND" input
+			(at 243.84 116.84 0)
+			(uuid "996383f3-f43d-4d28-9213-74aecbf7d91e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN_12V" input
+			(at 213.36 121.92 180)
+			(uuid "2946e2a4-16e8-415d-b414-746104146c9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN_GND" input
+			(at 213.36 124.46 180)
+			(uuid "1b49631c-7041-4327-bbb3-ee125034262c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ClassH_PCB_FINAL"
+				(path "/83f25dcc-e2e1-423e-82f5-ba9174ba5bc5"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
