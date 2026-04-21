@@ -4,7 +4,6 @@
 
 # Bill of Materials
 ## Rail Follower
-
 | Part Description                         | Part Number              | Quantity | Unit Cost | Total Cost |
 |-----------------------------------------|--------------------------|----------|-----------|------------|
 | 3.3 µH Sepic Inductor                   | ETQ-P8M3R3JFA            | 2        | $2.34     | $4.68      |
@@ -27,6 +26,64 @@
 | 10 kΩ Potentiometer                    | PDB181-K220K-103B        | 1        | $1.40     | $1.40      |
 | Signal Rectifier                       | BAS4002ARPPE6327HTSA1    | 1        | $0.32     | $0.32      |
 | 3.5mm Audio Jack                       | SJ1-3523N                | 1        | $0.91     | $0.91      |
+
+## Rail Splitter
+| Part Description                         | Part Number                          | Quantity | Unit Cost | Total Cost |
+|-----------------------------------------|--------------------------------------|----------|-----------|------------|
+| Half-Bridge Gate Driver IC              | IRS21531DSTRPBFCT-ND                 | 2        | $1.24     | $2.48      |
+| MOSFET N-CH 100V                        | SIR870DP-T1-GE3CT-ND                 | 4        | $3.23     | $12.92     |
+| AD820ARZ Op-Amp                         | 505-AD820ARZ-ND                      | 2        | $9.11     | $18.22     |
+| 10 µH Inductor                          | PCD2433CT-ND                         | 5        | $1.13     | $5.65      |
+| Zener Diode                             | 1655-SK56BCT-ND                      | 5        | $0.49     | $2.45      |
+| 5.6 kΩ 0.1% 1/10W                       | YAG1699CT-ND                         | 10       | $0.06     | $0.59      |
+| 1 nF 1% 25V                             | 399-C0603C102F3GACTUCT-ND            | 10       | $0.50     | $5.04      |
+| 10 µF ±20% 100V                         | 490-GRM32EC72A106ME05KCT-ND          | 15       | $0.64     | $9.56      |
+| 10 µF ±10% 25V                          | 399-11939-1-ND                       | 10       | $0.13     | $1.26      |
+| 470 µF 100 V                            | 493-1379-ND                          | 10       | $1.09     | $10.92     |
+| 47 µF 100 V                             | 493-1147-ND                          | 10       | $0.28     | $2.80      |
+| 10k Trimmer Pot                         | TC33X-103ECT-ND                      | 3        | $0.25     | $0.75      |
+| 2200 pF ±20% 25V Ceramic                | 399-C0603C222M3RACTUCT-ND            | 10       | $0.15     | $1.47      |
+| 0.1 µF ±10% 25V Ceramic                 | 399-C0603C104K3RACTUCT-ND            | 10       | $0.01     | $0.10      |
+| 33 kΩ ±0.1% 0.1W                        | P33KDBCT-ND                          | 10       | $0.06     | $0.61      |
+| 330 Ω ±5% 0.1W                          | 311-330GRCT-ND                       | 10       | $0.02     | $0.20      |
+| 3.9 kΩ ±1% 0.1W                         | RMCF0603FT3K90CT-ND                  | 10       | $0.01     | $0.06      |
+| 12 kΩ ±0.1% 0.1W                        | P12KDBCT-ND                          | 10       | $0.06     | $0.61      |
+| 3.3 kΩ ±1% 0.1W                         | RMCF0603FT3K30CT-ND                  | 10       | $0.01     | $0.06      |
+| 82 kΩ ±5% 0.1W                          | 311-82KGRCT-ND                       | 10       | $0.01     | $0.07      |
+| 4.7 kΩ ±1% 0.1W                         | RMCF0603FT4K70CT-ND                  | 10       | $0.01     | $0.06      |
+| 10 Ω ±1% 0.1W                           | RMCF0603FT10R0CT-ND                  | 10       | $0.01     | $0.06      |
+| 1.5 kΩ ±1% 0.25W                        | RHM1.50KADCT-ND                      | 10       | $0.08     | $0.75      |
+| Test Point                              | 36-5005-ND                           | 30       | $0.26     | $7.68      |
+
+## Class AB Amplifier
+| Part Number                         | Part Description                     | Quantity | Unit Cost | Total Cost |
+|------------------------------------|-------------------------------------|----------|-----------|------------|
+| 296-41370-2-ND                     | OPA454 Op-Amp                       | 1        | $7.18     | $7.18      |
+| MJL21193GOS-ND                     | Output PNP BJT 250 V 16 A           | 1        | $6.26     | $6.26      |
+| MJL21194GOS-ND                     | Output NPN BJT 250 V 16 A           | 1        | $6.26     | $6.26      |
+| MJE15033GOS-ND                     | Driver PNP BJT 250 V 8 A            | 2        | $2.10     | $4.20      |
+| MJE15032GOS-ND                     | Driver NPN BJT 250 V 8 A            | 2        | $2.10     | $4.20      |
+| TTC004BQ-ND                        | NPN 160V 1.5A                       | 3        | $0.90     | $2.70      |
+| TTA004BQ-ND                        | PNP 160V 1.5A                       | 2        | $0.81     | $1.62      |
+| 541-WSLF3222L4000FE6CT-ND          | Output Emitter Resistors 12W         | 2        | $3.01     | $6.02      |
+| 541-CRCW080540K0FKEACT-ND          | 40 kΩ Resistor 1/4W                 | 2        | $0.12     | $0.24      |
+| 541-4187-1-ND                      | 20 kΩ Resistor 1/4W                 | 1        | $0.10     | $0.10      |
+| 541-1.00KCCT-ND                    | 1 kΩ Resistor 1/4W                  | 2        | $0.10     | $0.20      |
+| 541-1.10KCCT-ND                    | 1.1 kΩ Resistor 1/4W                | 1        | $0.10     | $0.10      |
+| 311-3.60KFRCT-ND                   | 3.6 kΩ Resistor 1/4W                | 1        | $0.10     | $0.10      |
+| 541-100CCT-ND                      | 100 Ω Resistor 1/4W                 | 3        | $0.10     | $0.30      |
+| 709-VPDD202W102K1GV001ECT-ND       | 1 nF Filter Capacitor               | 1        | $0.17     | $0.17      |
+| 399-C1206C104K5RACTUCT-ND          | 0.1 µF Bypass Capacitors            | 2        | $0.08     | $0.16      |
+| 478-12065A300JAT2ACT-ND            | 30 pF Capacitor                     | 1        | $0.28     | $0.28      |
+| 1712-CRGH1206F330RCT-ND            | 330 Ω Resistor 1/2W                 | 1        | $0.10     | $0.10      |
+| 118-PV36W102C01B00-ND              | 1 kΩ Potentiometer                  | 1        | $1.53     | $1.53      |
+
+## Enclosure
+| Part Description                          | Qty | Link        | Cost  |
+|-------------------------------------------|-----|------------|-------|
+| #2 x 1/4" Pan Head Sheet Metal Screw      | 12  | [Link](https://www.amazon.com/dp/B094XVJRQB?ref=cm_sw_r_cso_cp_apin_dp_TH6723NY6FKN1X2NP8HY&ref_=cm_sw_r_cso_cp_apin_dp_TH6723NY6FKN1X2NP8HY&social_share=cm_sw_r_cso_cp_apin_dp_TH6723NY6FKN1X2NP8HY&oas=true)  | $7.49 |
+| 3mm x 20mm Hex Bolt                       | 4   | [Link](https://www.amazon.com/BNUOK-Socket-Screws-Threads-Spanner/dp/B0DJR2Q5LP/ref=sr_1_3?crid=W2305ZD2FNQV&dib=eyJ2IjoiMSJ9.P3m1jdOV6NjRNryhqc6mNZYJ_rSOVjPZwx3x_IZUzmfyR4svjfvJ8AZDbHj88V6uT6GKq76S7kONkJRhTa5xslJtBGZexPCsansF_fme_kHCfzFpS4c3M_CYCkMVQ_ypZ0WC17a0_ok_aXVGSjp6NNtctOxYpODZq_4g6q-cFWu1m7xF6YFGcT4afU0DKKKk5LrJtV_EwZtWg0IahqVlrof1_2IzW9kSKOxP0gJua7HT48TAWBmCF_ZQ22wekv2fIo_w5N-S9Ny5Abupu7aoxaTT8c5O8pXYQZHBffv8LWM.cO3imLAJvC58IygrIHBa3FQS2-P8iiNmOXqj3alLTTM&dib_tag=se&keywords=20mm%2Bby%2B3mm%2Bbolt&qid=1776456512&s=industrial&sprefix=20mm%2Bby%2B3mm%2Bbol%2Cindustrial%2C128&sr=1-3&th=1)  | $7.49 |
+| M3-0.5mm Hex Nut                          | 4   | [Link](https://www.amazon.com/ZQZ-M3-0-5mm-Stainless-Hardware-Standard/dp/B0CQJK2R5T/ref=sr_1_1_sspa?crid=3UUTX6CCJ48UD&dib=eyJ2IjoiMSJ9.oMLvADkOWoV2tdSD99yJKn77P0sYpqhahu07OuJaMVkT508_3DnS36jHQzzZcHaUcGwyuyrUUh6WKSawD0OY-kWypDtqByUyagUa8YG9794kMQc0sju8xYS97ldZXOMoD6u6WHuXXNEtnw-eQlqEG0MCaJLsESe1SBe6NfDM2q7kQrNBBYxnpDQhaXQ0WjLJOGpQ7I9LhlCe8ay9Hv0y8ibHUIxIMg4l7bJQl-S25i2cHnJW84qivJMa57IFFInZ1vuLvxHl58jHhJaIxB-g1VpELbbkeuYo2Ii8aOXYYqE.eCEfIdI_MtNjLMBC5TwFn8KkcLCQMYQUdiLAK9wA-Sc&dib_tag=se&keywords=M3%2Bnut&qid=1776456979&s=industrial&sprefix=m3%2B%2Cindustrial%2C248&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1)  | $9.99 |
 # Tools Used
 
 # Assembly Overview
