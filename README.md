@@ -2,7 +2,7 @@
 
 # Project Overview
 This project aims to develop a lower-cost Class H amplifier design that can be used not only for audio, but other applications as well with little-to-no modification required. The design is based around a class AB amplifier like many reference designs. This amplifier design includes  documentation on testing and simulations to allow for easy replicability and modification. Key specifications and their impact on performance have been researched and were used to guide the design process. The design has been broken up into sections and most have been successfully simulated.  These sections are shown in the block diagram.
-![Block Diagram]/(Class-H-Amplifier/blob/main/Media/block_diagram.png)
+![Block Diagram]/(Media/block_diagram.png)
 
 # Bill of Materials
 ## Rail Follower
