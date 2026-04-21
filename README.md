@@ -1,13 +1,13 @@
 # Class-H-Amplifier
 
-#Project Overview
+# Project Overview
 
-#Bill of Materials
+# Bill of Materials
 
-#Tools Used
+# Tools Used
 
-#Assembly Overview
+# Assembly Overview
 
-#Future Improvements
+# Future Improvements
 
-#References
+# References
