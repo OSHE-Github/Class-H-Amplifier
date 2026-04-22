@@ -121,9 +121,10 @@ Software:
 1. Gather materials specified in BOM
 2. Order materials using provided Gerber files
 3. Solder componenents on PCB as specified by schematics
-4. Dowload enclosure files
-5. 3D print enclosure
-6. Secure PCBs in enclosure
+4. Test as described in the testing procedure
+5. Dowload enclosure files
+6. 3D print enclosure
+7. Secure PCBs in enclosure
 
 Detailed assembly guide, including details on LTspice simulations can be found in the [project report](https://github.com/OSHE-Github/Class-H-Amplifier/blob/main/Documents/Class%20H%20Report.pdf)
 
