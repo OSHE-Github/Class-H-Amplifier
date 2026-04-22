@@ -123,17 +123,35 @@ Software:
 # Future Improvements
 
 # References
-[1]  N. Utomo et al., “An 85.1% Peak Efficiency, Low Power Class H Audio Amplifier With Full Class H Operation,” IEEE transactions on circuits and systems. I, Regular papers, vol. 70, no. 12, pp. 1–13, 2023, doi: 10.1109/TCSI.2023.3305622. 
-[2] S. Munz, “Slew Rate in Audio Amplifiers - What Does it Mean?,” Audioholics, Feb. 08, 2013. https://www.audioholics.com/audio-amplifier/amplifier-slew-rate
-[3] “Cambridge Audio,” Cambridge Audio. https://www.cambridgeaudio.com/usa/en/blog/amplifier-specifications
-[4] “What is Total Harmonic Distortion (THD)?,” Audiophile On, Aug. 16, 2025. https://www.google.com/url?q=https://www.audiophileon.com/news/what-is-total-harmonic-distortion-thd&sa=D&source=docs&ust=1764909876439016&usg=AOvVaw1L640sjTA-tfl3lK8r8XUv
-[5] V. Batra, “Modular Concepts: What is an Envelope Follower?,” Perfect Circuit, Aug. 22, 2024. https://www.perfectcircuit.com/signal/envelope-followers
-[6] “What’s the difference between MOSFET and BJT and how to choose?,” NextPCB. https://www.nextpcb.com/blog/what-is-the-difference-between-mosfet-and-bjt-and-how-to-choose
-[7] A. Sedra and K. Smith, Microelectronic Circuits. S.L.: Oxford Univ Press US, 2019.
-[8] O. Jørgensen, “What do different amplifier classes mean?,” Dynaudio.com, May 14, 2025. https://dynaudio.com/magazine/2025/may/amplifier-classes-ask-the-expert
-[9] D. Self, Audio Power Amplifier Design, Sixth. Burlington ; Oxford: Elsevier / Focal Press, 2013.
-[10] Cadence PCB Solutions, “What is Signal to Noise Ratio and How to calculate it?,” resources.pcb.cadence.com, 2023. https://resources.pcb.cadence.com/blog/2020-what-is-signal-to-noise-ratio-and-how-to-calculate-it
-[12]“OSHW,” Freedomdefined.org, 2023. https://freedomdefined.org/OSHW
+[1] N. Utomo et al., “An 85.1% Peak Efficiency, Low Power Class H Audio Amplifier With Full Class H Operation,” *IEEE Transactions on Circuits and Systems I: Regular Papers*, vol. 70, no. 12, pp. 1–13, 2023. doi: 10.1109/TCSI.2023.3305622.
+
+[2] S. Munz, “Slew Rate in Audio Amplifiers - What Does it Mean?,” *Audioholics*, Feb. 08, 2013.  
+https://www.audioholics.com/audio-amplifier/amplifier-slew-rate
+
+[3] Cambridge Audio, “Amplifier Specifications,” *Cambridge Audio*.  
+https://www.cambridgeaudio.com/usa/en/blog/amplifier-specifications
+
+[4] “What is Total Harmonic Distortion (THD)?,” *Audiophile On*, Aug. 16, 2025.  
+https://www.audiophileon.com/news/what-is-total-harmonic-distortion-thd
+
+[5] V. Batra, “Modular Concepts: What is an Envelope Follower?,” *Perfect Circuit*, Aug. 22, 2024.  
+https://www.perfectcircuit.com/signal/envelope-followers
+
+[6] “What’s the difference between MOSFET and BJT and how to choose?,” *NextPCB*.  
+https://www.nextpcb.com/blog/what-is-the-difference-between-mosfet-and-bjt-and-how-to-choose
+
+[7] A. Sedra and K. Smith, *Microelectronic Circuits*. Oxford University Press, 2019.
+
+[8] O. Jørgensen, “What do different amplifier classes mean?,” *Dynaudio*, May 14, 2025.  
+https://dynaudio.com/magazine/2025/may/amplifier-classes-ask-the-expert
+
+[9] D. Self, *Audio Power Amplifier Design*, 6th ed. Elsevier / Focal Press, 2013.
+
+[10] Cadence PCB Solutions, “What is Signal to Noise Ratio and How to calculate it?,” 2023.  
+https://resources.pcb.cadence.com/blog/2020-what-is-signal-to-noise-ratio-and-how-to-calculate-it
+
+[11] “OSHW,” *Freedom Defined*, 2023.  
+https://freedomdefined.org/OSHW
 
 This was also used as a general reference for various amplifier topics and designs that were not directly referenced in this report:
-[13] B. Cordell, Designing Audio Power Amplifiers. McGraw Hill Professional, 2010.
+[12] B. Cordell, *Designing Audio Power Amplifiers*. McGraw-Hill Professional, 2010.
