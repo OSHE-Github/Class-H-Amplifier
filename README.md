@@ -121,7 +121,7 @@ Software:
 1. Gather materials specified in BOM
 2. Order materials using provided Gerber files
 3. Solder componenents on PCB as specified by schematics
-4. Test as described in the [testing procedure](Documents/Testing Procedure.md)
+4. Test as described in the [testing procedure](https://github.com/OSHE-Github/Class-H-Amplifier/blob/main/Documents/Testing%20Procedure.md)
 5. Dowload enclosure files
 6. 3D print enclosure
 7. Secure PCBs in enclosure
