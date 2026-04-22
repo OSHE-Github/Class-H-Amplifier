@@ -1,15 +1,15 @@
-### Testing Procedure
+# Testing Procedure
 This guide provides a general outline of how testing should occur for the rail splitter, AB amplifier, and combination of the rail splitter and AB amplifier PCBs. 
 The steps may vary depending on any modifications to the PCBs. No guide has been written for the rail follower at this point in time.
 
 ## Rail Splitter
 
-# Setup
+### Setup
 Prepare a variable DC power supply capable of 1V-95V which will be connected to input (Believed to be silkscreened J1/J3; confirm at meeting tmr)
 Prepare an oscilloscope with standard probes and differential probe
 Get a thermal camera
 
-# Procedure
+### Procedure
 Connect the variable DC power supply to the main power input terminals, set to 1.0V with a strict current limit (100mA-500mA) to prevent failure if a short occurs
 Connect channel 1 of the oscilloscope to the main control signal input (Probably TP5 or TP6, confirm at meeting)
 Connect channel 2 and channel 3 to monitor the high side and the low side gate drive signals. Probe the test points directly next to the stitching ICs/MOSFETS (TP7, TP8, TP9, or TP10)
@@ -21,7 +21,7 @@ Measure the ripple at different voltages (20V, 40V, etc.) and record the Vpp
 
 ## AB Amplifier
 
-# Power Up
+### Power Up
 Setup
 * Connect fixed supply rails, starting at 0V and slowly increasing
 * Grounded input
@@ -36,7 +36,7 @@ Setup
 Expected:
 * Vout < 30 mV
 
-# Small Signal Test
+### Small Signal Test
 1. Apply 1 kHz sine wave, starting at 100mVpp
 2. Observe output waveform on oscilloscope
 3. Measure output amplitude
@@ -50,7 +50,7 @@ Expected
 * Minimal noise in square wave
 
 
-# Frequency Response
+### Frequency Response
 Setup
 * Fixed rails: ±10V
 * Input: Sine wave
@@ -67,7 +67,7 @@ Expected
 * Gain around 26dB from 20 Hz to at least 20 kHz
 * -3dB drop in gain some point after 20kHz (likely after 80kHz)
 
-# Power Output
+### Power Output
 1. Set the power supply to ±20 V initially
 2. Connect the 8Ω load to the output terminal
 3. Apply 1 V amplitude sine wave
@@ -81,7 +81,7 @@ Expected
 * Stability
 
 
-# Supply Rails
+### Supply Rails
 Setup
 * Rails at ±15V, ±20V, ±25V, ±30V, ±45V
 * Input: Sine wave initially at 1V amplitude
@@ -99,7 +99,7 @@ Expected
 * No clipping over 30 V rails
 
 
-# Thermal
+### Thermal
 1. Connect the the output of the amplifier to 8Ω load
 2. Supply ±V to rails
 3. Configure input to sine wave, X Vpp, 1kHz frequency
@@ -107,7 +107,7 @@ Expected
 5. Repeat for different inputs and rails
 
 
-# Total Harmonic Distortion
+### Total Harmonic Distortion
 1. Connect the the output of the amplifier to 8Ω load
 2. Supply  ±15 to rails
 3. Configure input to sine wave, 0.5 Vpp, 1kHz frequency
@@ -122,7 +122,7 @@ Expected:
 * Higher THD if signal is clipping
 	
 
-# Noise
+### Noise
 1. Connect the the output of the amplifier to 8Ω load
 2. Supply  ±15  to rails
 3. Configure input to sine wave, 0.5 Vpp, 1kHz frequency
@@ -137,7 +137,7 @@ Expected:
 *SNR > 50 dB
 *Noise on order of 3mV
 
-# Efficiency
+### Efficiency
 1. Measure supply power 
 2. Measure output voltage (RMS)
 3. Calculate output power:
@@ -148,7 +148,7 @@ Expected:
 
 ## Rail Splitter and AB Amplifier Board
 
-# Start Up
+### Start Up
 1. Set the DC power supply to 12 V
 2. Set another power supply to 20V initially
 3. Connect the 12 V supply to the + and GND terminals labeled 12V Input/Output
@@ -157,7 +157,7 @@ Expected:
 6. Power on both power supplies
 7. Observe the current draw from the supplies, very low current is expected (0.01 - 0.02 Amps)
 
-# Low Rails, No Load
+### Low Rails, No Load
 1. Keep the same setup as test 4.1, but additionally configure a signal generator to output a sine wave with 250 mVpp and 1kHz frequency
 2. Connect the signal generator output to board
 3. Turn on the power supplies
