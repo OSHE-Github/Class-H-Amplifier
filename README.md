@@ -120,7 +120,11 @@ Software:
 # Assembly Overview
 
 
-# Future Improvements
+# Future Recommendations
+1. Further testing  for the final rendition of the rail follower board separately and the combination of the rail follower, rail splitter, and AB amplifier
+2. Improve distortion, potentially through modification on railm splitter board
+3. Further testing is needed for that to understand its maximum load conditions and how those can be improved
+4. Additional testing with distortion using more precise equipment or measurement techniques
 
 # References
 [1] N. Utomo et al., “An 85.1% Peak Efficiency, Low Power Class H Audio Amplifier With Full Class H Operation,” *IEEE Transactions on Circuits and Systems I: Regular Papers*, vol. 70, no. 12, pp. 1–13, 2023. doi: 10.1109/TCSI.2023.3305622.
