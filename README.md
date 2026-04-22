@@ -3,6 +3,26 @@
 # Project Overview
 This project aims to develop a lower-cost Class H amplifier design that can be used not only for audio, but other applications as well with little-to-no modification required. The design is based around a class AB amplifier like many reference designs. This amplifier design includes  documentation on testing and simulations to allow for easy replicability and modification. Key specifications and their impact on performance have been researched and were used to guide the design process. The design has been broken up into sections and most have been successfully simulated.  These sections are shown in the block diagram.
 
+# Methodology
+The class H amplifier was broken down into sections to design separately that would fit together in the end. A class H amplifier differs from other amplifier classes due to its modulating supply rails [1]. A class AB amplifier was frequently used in reference designs and is commonly used especially in audio applications, leading that class to be the choice for this design as well. 
+
+Specifications were defined throughout the process, both to guide the design and to evaluate the actual performance of the completed design. Common amplifier specifications listed on commercial designs include those shown in Table 1, including more which do not apply, are difficult to set a target for,  or are not easily testable. Target values were defined based on typical values and on what was a reasonable goal for this project. The specifications and their values are listed in the table below. 
+
+| Specification | Target |
+|--------------|--------|
+| Maximum Output Power (Avg) | 100 W |
+| Load Impedance | 8 Ω |
+| Supply | ±6–45 V |
+| Frequency Response | 20 Hz – 20 kHz |
+| Total Harmonic Distortion (THD) | < 1% @ 1 kHz |
+| Total Harmonic Distortion + Noise (THD+N) | < 1% @ 1 kHz |
+| Signal to Noise Ratio (SNR) | ≥ 70 dB |
+| Slew Rate | ≥ 5 V/µs |
+| Efficiency | > 50% |
+| Protection | Overvoltage, undervoltage, reverse polarity, undercurrent |
+
+The full methodology is explained in more detail in the project report.
+
 # Bill of Materials
 ## Rail Follower
 | Part Description                         | Part Number              | Quantity | Unit Cost | Total Cost |
@@ -96,6 +116,7 @@ This project aims to develop a lower-cost Class H amplifier design that can be u
 Software:
 - [LTspice](https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html)
 - [KiCAD](https://www.kicad.org/download/)
+  
 # Assembly Overview
 
 
