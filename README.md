@@ -92,6 +92,7 @@ This project aims to develop a lower-cost Class H amplifier design that can be u
 | FX888DX-010BY | Soldering Iron | 1 | $122.99 | $122.99 |
 | DOS1102 | Oscilloscope | 1 | $135.99 | $135.99 |
 | B07BR3F9N6 | 3D Printer | 1 | $169.00 | $169.00 |
+
 Software:
 LTspice: https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html
 KiCAD: https://www.kicad.org/download/
