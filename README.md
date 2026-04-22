@@ -2,7 +2,6 @@
 
 # Project Overview
 This project aims to develop a lower-cost Class H amplifier design that can be used not only for audio, but other applications as well with little-to-no modification required. The design is based around a class AB amplifier like many reference designs. This amplifier design includes  documentation on testing and simulations to allow for easy replicability and modification. Key specifications and their impact on performance have been researched and were used to guide the design process. The design has been broken up into sections and most have been successfully simulated.  These sections are shown in the block diagram.
-![Block Diagram]/(Media/block_diagram.png)
 
 # Bill of Materials
 ## Rail Follower
@@ -86,9 +85,18 @@ This project aims to develop a lower-cost Class H amplifier design that can be u
 | #2 x 1/4" Pan Head Sheet Metal Screw      | 12  | [Link](https://www.amazon.com/dp/B094XVJRQB?ref=cm_sw_r_cso_cp_apin_dp_TH6723NY6FKN1X2NP8HY&ref_=cm_sw_r_cso_cp_apin_dp_TH6723NY6FKN1X2NP8HY&social_share=cm_sw_r_cso_cp_apin_dp_TH6723NY6FKN1X2NP8HY&oas=true)  | $7.49 |
 | 3mm x 20mm Hex Bolt                       | 4   | [Link](https://www.amazon.com/BNUOK-Socket-Screws-Threads-Spanner/dp/B0DJR2Q5LP/ref=sr_1_3?crid=W2305ZD2FNQV&dib=eyJ2IjoiMSJ9.P3m1jdOV6NjRNryhqc6mNZYJ_rSOVjPZwx3x_IZUzmfyR4svjfvJ8AZDbHj88V6uT6GKq76S7kONkJRhTa5xslJtBGZexPCsansF_fme_kHCfzFpS4c3M_CYCkMVQ_ypZ0WC17a0_ok_aXVGSjp6NNtctOxYpODZq_4g6q-cFWu1m7xF6YFGcT4afU0DKKKk5LrJtV_EwZtWg0IahqVlrof1_2IzW9kSKOxP0gJua7HT48TAWBmCF_ZQ22wekv2fIo_w5N-S9Ny5Abupu7aoxaTT8c5O8pXYQZHBffv8LWM.cO3imLAJvC58IygrIHBa3FQS2-P8iiNmOXqj3alLTTM&dib_tag=se&keywords=20mm%2Bby%2B3mm%2Bbolt&qid=1776456512&s=industrial&sprefix=20mm%2Bby%2B3mm%2Bbol%2Cindustrial%2C128&sr=1-3&th=1)  | $7.49 |
 | M3-0.5mm Hex Nut                          | 4   | [Link](https://www.amazon.com/ZQZ-M3-0-5mm-Stainless-Hardware-Standard/dp/B0CQJK2R5T/ref=sr_1_1_sspa?crid=3UUTX6CCJ48UD&dib=eyJ2IjoiMSJ9.oMLvADkOWoV2tdSD99yJKn77P0sYpqhahu07OuJaMVkT508_3DnS36jHQzzZcHaUcGwyuyrUUh6WKSawD0OY-kWypDtqByUyagUa8YG9794kMQc0sju8xYS97ldZXOMoD6u6WHuXXNEtnw-eQlqEG0MCaJLsESe1SBe6NfDM2q7kQrNBBYxnpDQhaXQ0WjLJOGpQ7I9LhlCe8ay9Hv0y8ibHUIxIMg4l7bJQl-S25i2cHnJW84qivJMa57IFFInZ1vuLvxHl58jHhJaIxB-g1VpELbbkeuYo2Ii8aOXYYqE.eCEfIdI_MtNjLMBC5TwFn8KkcLCQMYQUdiLAK9wA-Sc&dib_tag=se&keywords=M3%2Bnut&qid=1776456979&s=industrial&sprefix=m3%2B%2Cindustrial%2C248&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1)  | $9.99 |
-# Tools Used
 
+# Tools Used
+| Part Number | Part Description | Quantity | Unit Cost | Total Cost |
+|------------|------------------|----------|-----------|------------|
+| FX888DX-010BY | Soldering Iron | 1 | $122.99 | $122.99 |
+| DOS1102 | Oscilloscope | 1 | $135.99 | $135.99 |
+| B07BR3F9N6 | 3D Printer | 1 | $169.00 | $169.00 |
+Software:
+LTspice: https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html
+KiCAD: https://www.kicad.org/download/
 # Assembly Overview
+
 
 # Future Improvements
 
