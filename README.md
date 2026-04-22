@@ -154,4 +154,5 @@ https://resources.pcb.cadence.com/blog/2020-what-is-signal-to-noise-ratio-and-ho
 https://freedomdefined.org/OSHW
 
 This was also used as a general reference for various amplifier topics and designs that were not directly referenced in this report:
+
 [12] B. Cordell, *Designing Audio Power Amplifiers*. McGraw-Hill Professional, 2010.
