@@ -21,7 +21,7 @@ Specifications were defined throughout the process, both to guide the design and
 | Efficiency | > 50% |
 | Protection | Overvoltage, undervoltage, reverse polarity, undercurrent |
 
-The full methodology is explained in more detail in the project report.
+The full methodology is explained in more detail in the [project report](https://github.com/OSHE-Github/Class-H-Amplifier/blob/main/Documents/Class%20H%20Report.pdf).
 
 # Bill of Materials
 ### Rail Follower
@@ -125,7 +125,7 @@ Software:
 5. 3D print enclosure
 6. Secure PCBs in enclosure
 
-Detailed assembly guide, including details on LTspice simulations can be found in the project report
+Detailed assembly guide, including details on LTspice simulations can be found in the [project report](https://github.com/OSHE-Github/Class-H-Amplifier/blob/main/Documents/Class%20H%20Report.pdf)
 
 # Future Recommendations
 1. Further testing  for the final rendition of the rail follower board separately and the combination of the rail follower, rail splitter, and AB amplifier
