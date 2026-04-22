@@ -24,7 +24,7 @@ Specifications were defined throughout the process, both to guide the design and
 The full methodology is explained in more detail in the project report.
 
 # Bill of Materials
-## Rail Follower
+### Rail Follower
 | Part Description                         | Part Number              | Quantity | Unit Cost | Total Cost |
 |-----------------------------------------|--------------------------|----------|-----------|------------|
 | 3.3 µH Sepic Inductor                   | ETQ-P8M3R3JFA            | 2        | $2.34     | $4.68      |
@@ -48,7 +48,7 @@ The full methodology is explained in more detail in the project report.
 | Signal Rectifier                       | BAS4002ARPPE6327HTSA1    | 1        | $0.32     | $0.32      |
 | 3.5mm Audio Jack                       | SJ1-3523N                | 1        | $0.91     | $0.91      |
 
-## Rail Splitter
+### Rail Splitter
 | Part Description                         | Part Number                          | Quantity | Unit Cost | Total Cost |
 |-----------------------------------------|--------------------------------------|----------|-----------|------------|
 | Half-Bridge Gate Driver IC              | IRS21531DSTRPBFCT-ND                 | 2        | $1.24     | $2.48      |
@@ -76,7 +76,7 @@ The full methodology is explained in more detail in the project report.
 | 1.5 kΩ ±1% 0.25W                        | RHM1.50KADCT-ND                      | 10       | $0.08     | $0.75      |
 | Test Point                              | 36-5005-ND                           | 30       | $0.26     | $7.68      |
 
-## Class AB Amplifier
+### Class AB Amplifier
 | Part Number                         | Part Description                     | Quantity | Unit Cost | Total Cost |
 |------------------------------------|-------------------------------------|----------|-----------|------------|
 | 296-41370-2-ND                     | OPA454 Op-Amp                       | 1        | $7.18     | $7.18      |
@@ -107,11 +107,11 @@ The full methodology is explained in more detail in the project report.
 | M3-0.5mm Hex Nut                          | 4   | [Link](https://www.amazon.com/ZQZ-M3-0-5mm-Stainless-Hardware-Standard/dp/B0CQJK2R5T/ref=sr_1_1_sspa?crid=3UUTX6CCJ48UD&dib=eyJ2IjoiMSJ9.oMLvADkOWoV2tdSD99yJKn77P0sYpqhahu07OuJaMVkT508_3DnS36jHQzzZcHaUcGwyuyrUUh6WKSawD0OY-kWypDtqByUyagUa8YG9794kMQc0sju8xYS97ldZXOMoD6u6WHuXXNEtnw-eQlqEG0MCaJLsESe1SBe6NfDM2q7kQrNBBYxnpDQhaXQ0WjLJOGpQ7I9LhlCe8ay9Hv0y8ibHUIxIMg4l7bJQl-S25i2cHnJW84qivJMa57IFFInZ1vuLvxHl58jHhJaIxB-g1VpELbbkeuYo2Ii8aOXYYqE.eCEfIdI_MtNjLMBC5TwFn8KkcLCQMYQUdiLAK9wA-Sc&dib_tag=se&keywords=M3%2Bnut&qid=1776456979&s=industrial&sprefix=m3%2B%2Cindustrial%2C248&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1)  | $9.99 |
 
 # Tools Used
-| Part Number | Part Description | Quantity | Unit Cost | Total Cost |
-|------------|------------------|----------|-----------|------------|
-| FX888DX-010BY | Soldering Iron | 1 | $122.99 | $122.99 |
-| DOS1102 | Oscilloscope | 1 | $135.99 | $135.99 |
-| B07BR3F9N6 | 3D Printer | 1 | $169.00 | $169.00 |
+| Part Description | Part Number | Cost |
+|------------|------------------|----------|
+| Soldering Iron | FX888DX-010BY | $122.99 |
+| Oscilliscope | DSOX2004A |  $3306.90 |
+| B07BR3F9N6 | 3D Printer |  $169.00 |
 
 Software:
 - [LTspice](https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html)
