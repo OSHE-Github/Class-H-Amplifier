@@ -118,11 +118,18 @@ Software:
 - [KiCAD](https://www.kicad.org/download/)
   
 # Assembly Overview
+1. Gather materials specified in BOM
+2. Order materials using provided Gerber files
+3. Solder componenents on PCB as specified by schematics
+4. Dowload enclosure files
+5. 3D print enclosure
+6. Secure PCBs in enclosure
 
+Detailed assembly guide, including details on LTspice simulations can be found in the project report
 
 # Future Recommendations
 1. Further testing  for the final rendition of the rail follower board separately and the combination of the rail follower, rail splitter, and AB amplifier
-2. Improve distortion, potentially through modification on railm splitter board
+2. Improve distortion, potentially through modification on rail splitter board
 3. Further testing is needed for that to understand its maximum load conditions and how those can be improved
 4. Additional testing with distortion using more precise equipment or measurement techniques
 
