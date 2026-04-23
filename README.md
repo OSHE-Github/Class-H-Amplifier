@@ -1,7 +1,7 @@
 # Class-H-Amplifier
 
 <p align="center">
-<img src="Media/OSHE_Logo_300PPI.png" width="500" />
+<img src="Media/OSHE_Logo_300PPI.png" width="100" />
 </p>
 
 # Project Overview
