@@ -2,8 +2,9 @@
 
 # Project Overview
 This project aims to develop a lower-cost Class H amplifier design that can be used not only for audio, but other applications as well with little-to-no modification required. The design is based around a class AB amplifier like many reference designs. This amplifier design includes  documentation on testing and simulations to allow for easy replicability and modification. Key specifications and their impact on performance have been researched and were used to guide the design process. The design has been broken up into sections and most have been successfully simulated. These sections are shown in the block diagram.
-
+<p align="center">
 <img src="Media/block_diagram.png" width="500" />
+</p>
 
 # Methodology
 The class H amplifier was broken down into sections to design separately that would fit together in the end. A class H amplifier differs from other amplifier classes due to its modulating supply rails [1]. A class AB amplifier was frequently used in reference designs and is commonly used especially in audio applications, leading that class to be the choice for this design as well. 
